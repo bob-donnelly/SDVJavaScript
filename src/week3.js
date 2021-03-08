@@ -34,3 +34,19 @@ var fn = 'Bob'
 var ln = ' Win-Donnelly'
 
 console .log(fn,ln)
+
+// Let can assign another value but you do not need to declare let again
+
+let lastName = 'Kahwaji'
+
+console.log(lastName)
+
+lastName = 'Win-Donnelly'
+
+console.log(lastName)
+
+// Using a let variable to add two previous values together.
+
+let fullName = fn + ln 
+
+console.log(fullName)
