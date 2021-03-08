@@ -24,4 +24,13 @@ console.log(g)
 
 console.log(c)
 
+/* Variables or var were the first containers there are const and let now
+const is constant and fufills the same function as var which is set, 
+can't be changed | let is a container that can be used mutliple times 
+for different strings / values */
 
+var fn = 'Bob'
+
+var ln = ' Win-Donnelly'
+
+console .log(fn,ln)
