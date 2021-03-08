@@ -1,6 +1,8 @@
+//TODO Javascript Variables
+
 /* const is a variable declaration for "constant"
 
-Declared constant w for 'world' in hellow world*/
+Declared constant w for 'world' in hello world*/
 
 const w = 'hello world'
 
