@@ -47,6 +47,14 @@ console.log(lastName)
 
 // Using a let variable to add two previous values together.
 
-let fullName = fn + ln 
+let fullName = fn + ' ' + ln 
 
 console.log(fullName)
+
+// added strings to call first name and last name to add a sentence to it.
+
+fullName = `My fullname is  ${fn} ${ln}`
+
+console.log(fullName)
+
+
