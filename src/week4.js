@@ -148,3 +148,30 @@ const info = {
 }
 
 console.log(info)
+
+let c = 11 
+
+// if (c === 11 && typeof c === 'number') {
+//     console.log(true)
+// } else {
+//     console.log(false)
+// }
+
+// if (c === 11 && typeof c === 'string') {
+//     console.log(true)
+// } else {
+//     console.log(false)
+// }
+
+// if (c === 11 || typeof c === 'string') {
+//     console.log(true)
+// } else {
+//     console.log(false)
+// }
+
+if (c === 11 && c != 'string') {
+    console.log(true)
+} else {
+    console.log(false)
+}
+
