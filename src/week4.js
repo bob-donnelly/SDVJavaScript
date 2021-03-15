@@ -26,7 +26,55 @@ console.log(isIsland)
 console.log(language)
 
 // typeof is a reserved keyword that shows the datatype of the declared variable.
+
 // reserved keywords are for javascript to parse differently to variables, you cannot use them.
 
 console.log(typeof isIsland)
 
+let number = 10 
+
+console.log(number)
+
+console.log(typeof number)
+
+console.log(number / 2)
+
+console.log(number > 6)
+
+// If number divided by two is less than 10 and number is strictly equal to 10 return true if not false.
+
+console.log(number / 2 < 10 && number === 10) 
+
+const address = country + ' ' + city + ' ' + postcode
+
+console.log(address)
+
+// ES6 string syntax
+
+let string = `My address is ${country}, ${city}, ${postcode}.`
+
+console.log(string)
+
+let x = 10
+
+if (x < 0) {
+    console.log('Bob')
+} else {
+    console.log(false)
+}
+
+function play() {
+    if (number === 10) {
+    return true;
+} else {
+    return false;
+}
+}
+
+console.log(play())
+
+if (typeof country === 'number') {
+console.log('Is true')
+} else {
+    console.log('false')
+}
