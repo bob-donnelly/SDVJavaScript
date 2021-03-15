@@ -87,10 +87,56 @@ if (country === "New Zealand" && 'string') {
     console.log('false')
 }
 
-// Is the or symbol.
+// || is the or symbol.
 
 if (country === "New Zealand" || 'string') {
     console.log('Is true')
 } else {
     console.log('false')
 }
+
+x = '1234567'
+
+console.log(typeof x)
+
+console.log(x)
+
+let y = Number (x)
+
+console.log(Number(y))
+
+const a = 1 + 1
+
+console.log(1+1)
+console.log(a)
+
+// MDN define properties in Objects. Changed to null.
+
+const object1 = {};
+
+Object.defineProperties(object1, {
+  property1: {
+    value: null,
+    writable: true
+  },
+  property2: {}
+});
+
+// Console.log() needs the object and property with dot notation to print the value.
+
+console.log(object1.property1)
+
+Symbol('Hello, World!')
+
+console.log(Symbol('Hello, World!'))
+
+// Objects with syntax like a switch statements.
+
+const obj = {
+    student: 'Bob',
+    country: 'Aotearoa',
+    city: 'ChCh',
+    postcode: 8083
+}
+
+console.log(obj)
