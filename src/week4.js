@@ -175,3 +175,36 @@ if (c === 11 && c != 'string') {
     console.log(false)
 }
 
+// Variable declared as e with an initialised or assigned value of 5
+
+let e = 5
+
+// Variable declared as r assigned value of a which = 5
+
+let r = e
+
+// Printed value e = 5
+
+console.log(e) // 5
+
+// Printed value r = 5
+
+console.log(r) // 5
+
+// e is strictly equal to r because they both equal 5, e is assigned 5 and r is assinged the value of e.
+
+console.log(e === r) // true
+
+e = 10
+
+// e is reassigned to 10 as let allows so e is now equal to 10
+
+console.log(e) // 10
+
+// r is still equal to a because it hasn't been reassigned below e = 10
+
+console.log(r) // 5
+
+// e is equal to r is now false
+
+console.log(e === r) // false
