@@ -1,7 +1,5 @@
 // REVIEW 
 
-const { post } = require("got")
-
 // values and variables
 
 let country = "New Zealand"
@@ -49,7 +47,7 @@ const address = country + ' ' + city + ' ' + postcode
 
 console.log(address)
 
-// ES6 string syntax
+// ES6 string syntax helps with calling data from a database.
 
 let string = `My address is ${country}, ${city}, ${postcode}.`
 
@@ -63,6 +61,8 @@ if (x < 0) {
     console.log(false)
 }
 
+// A function to determine if number variable is equal to 10.
+
 function play() {
     if (number === 10) {
     return true;
@@ -75,6 +75,22 @@ console.log(play())
 
 if (typeof country === 'number') {
 console.log('Is true')
+} else {
+    console.log('false')
+}
+
+// && is the and symbol
+
+if (country === "New Zealand" && 'string') {
+    console.log('Is true')
+} else {
+    console.log('false')
+}
+
+// Is the or symbol.
+
+if (country === "New Zealand" || 'string') {
+    console.log('Is true')
 } else {
     console.log('false')
 }
