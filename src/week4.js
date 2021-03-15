@@ -140,3 +140,11 @@ const obj = {
 }
 
 console.log(obj)
+
+const info = {
+剣道形: 'Bob',
+国: 'Aotearoa',
+剣道部:　'Sei tou ken yu kai Nelson',
+}
+
+console.log(info)
