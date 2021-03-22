@@ -117,8 +117,23 @@ console.log(y)
 
 // Termery Operator to determine whether to charge a student discount or not
 
-let isStudent = true;
-
+let isStudent = false
+let ifSenior = true
 let price = isStudent ? 8 : 12
 
 console.log(price)
+
+// let isStudent = false;
+// let isSenior = true;let price = isStudent ? 8 : isSenior ? 6 : 10console.log(price);
+
+// If else statement version of the Termery Operator above for comparison
+
+if (isStudent) {
+console.log(8)
+} else if (ifSenior) {
+    console.log(6)
+} else {
+    console.log(12)
+}
+
+
