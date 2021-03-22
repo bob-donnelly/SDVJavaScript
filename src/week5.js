@@ -136,8 +136,12 @@ console.log(8)
     console.log(12)
 }
 
+// Decalred an array
+
 let arr = [1,2,3,4,5,6,7]
 console.log(arr.length)
+
+// For loop to print loopy for the length of the array
 
 for(i = 0; i <= arr.length; i++) {
 console.log('LOOPY')
@@ -148,4 +152,26 @@ for (var i = 0; i < 10; i++) {let x = i; console.log(x)}
 for (let i = 0; i < 3; i++) console.log('"loop."')
 
 for ( let h = 0; h < 10; h++) {if (h === 5 || h === 7 || h === 8) continue; console.log(h)}
+
+// String declared and printing the value of the string then the string length
+
+let string = 'RobertWilliamWin-Donnelly';for (let value of string)
+  console.log(value);
+
+console.log(string.length)
+
+let object = { a: 1, b: 2, c: 3, method: () => { } };for (let value in object)
+    console.log(value, object[value]);
+
+// While loops are slightly different to for loops as the condition is present it will run 
+
+    let c = 0;while (c++ < 5)
+    console.log(c);
+
+    let t = 0;
+while (c++ < 1000) {
+    if (c > 500)
+        continue;
+    console.log(c);
+}
 
