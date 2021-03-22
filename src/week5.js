@@ -114,3 +114,11 @@ let x = 5
 let y = 5 > x ? 5 + 5 : x
 
 console.log(y)
+
+// Termery Operator to determine whether to charge a student discount or not
+
+let isStudent = true;
+
+let price = isStudent ? 8 : 12
+
+console.log(price)
