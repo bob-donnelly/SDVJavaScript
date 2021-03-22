@@ -136,4 +136,16 @@ console.log(8)
     console.log(12)
 }
 
+let arr = [1,2,3,4,5,6,7]
+console.log(arr.length)
+
+for(i = 0; i <= arr.length; i++) {
+console.log('LOOPY')
+}
+
+for (var i = 0; i < 10; i++) {let x = i; console.log(x)}
+
+for (let i = 0; i < 3; i++) console.log('"loop."')
+
+for ( let h = 0; h < 10; h++) {if (h === 5 || h === 7 || h === 8) continue; console.log(h)}
 
