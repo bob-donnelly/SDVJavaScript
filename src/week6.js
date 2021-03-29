@@ -63,8 +63,69 @@ function randomNumber(){
     return Math.floor(r)
 }
 
-console.log(randomNumber())
+console.log(randomNumber())   
 
 for (var i = 0; i < 10; i++) {
-    console.log(randomNumber(0, 10))
+    console.log(randomNumber(20 - 100))
 }
+
+let arr = [1, 2, 3, 4, 5]
+
+console.log(arr.length)
+
+// Creating objects
+
+    const student = {
+        name: 'Bob',
+        year: 'one',
+        class: 'sdv503'
+    }
+
+// console.log the name of the student with dot notation
+
+    console.log(student.name)
+
+// Reassigning the student name to matt
+
+    student.name = 'Matt'
+
+// Console.log now prints matt as the student name
+
+    console.log(student)
+
+    const newObj = {}
+
+    const info = {
+        fn: 'John',
+        ln: 'Smith',
+        dob: '1st Dec 2000',
+        friends: ['Bob', 'Pat']
+    }
+
+// printing the friends array nested within the info object indexes start at 0 
+
+    console.log(info.friends[0])
+
+    const example = {
+        nestedObj: {
+            name: 'Alex'
+        }
+    }
+
+    console.log(example)
+
+// New object is unnecessary and takes memory try to avoid
+
+    const Obj = new Object()
+
+    // Because new object doesn't have any data it console logs as an empty {}
+
+    console.log(Obj)
+
+const propsName = 'firstName'
+
+    const objOne = {
+        [propsName.toUpperCase()]:'OLE'.toLowerCase()
+    }
+
+    console.log(objOne)
