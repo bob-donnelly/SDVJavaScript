@@ -129,3 +129,20 @@ const propsName = 'firstName'
     }
 
     console.log(objOne)
+
+    const objTwo = {
+        fn: 'Jeanne',
+        ln: ' d\'Arc',
+        printFullName() {
+            return `${this.fn}${this.ln}`
+        }
+    }
+
+// Bracket notation syntax as well as dot notation
+
+    console.log(objTwo.printFullName())
+
+    console.log(objTwo['fn'])
+
+
+
