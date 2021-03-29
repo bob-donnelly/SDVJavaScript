@@ -54,3 +54,17 @@ numbers.push(7)
 
 console.log(numbers)
 
+let min = 20
+
+let max = 100
+
+function randomNumber(){
+    const r = Math.random()*(max - min) 
+    return Math.floor(r)
+}
+
+console.log(randomNumber())
+
+for (var i = 0; i < 10; i++) {
+    console.log(randomNumber(0, 10))
+}
