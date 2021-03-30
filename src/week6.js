@@ -122,7 +122,7 @@ console.log(arr.length)
 
     console.log(Obj)
 
-const propsName = 'firstName'
+    const propsName = 'firstName'
 
     const objOne = {
         [propsName.toUpperCase()]:'OLE'.toLowerCase()
@@ -138,11 +138,42 @@ const propsName = 'firstName'
         }
     }
 
-// Bracket notation syntax as well as dot notation
+    // Bracket notation syntax as well as dot notation
 
     console.log(objTwo.printFullName())
 
     console.log(objTwo['fn'])
 
+    // Checking which property is native to the object before inserting data 
+
+    console.log(objTwo.hasOwnProperty('ln'))
+    console.log(objTwo.hasOwnProperty('address'))
+
+    const newProps = delete objTwo.fn 
+    console.log(newProps)
+    console.log(objTwo.printFullName())
+    console.log(objTwo.hasOwnProperty('fn'))
+
+    min = 0 
+
+    max = 1000
+
+    let cel = Math.random(max - min).toPrecision(1) * 1000
+    let celToFah = cel * 1.8  + 32 
+    console.log(cel)    
 
 
+    if (cel, celToFah) {
+        cel, celToFah
+        console.log((celToFah) + ' F')
+    } else {
+        console.log('error')
+    }
+
+
+    var obj = {a: 1, b: 2, c: 3};
+
+    for ( prop in obj) {
+      console.log(`obj.${prop} = ${obj[prop]}`);
+    }
+    
