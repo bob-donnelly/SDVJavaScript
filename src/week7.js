@@ -85,8 +85,8 @@ function stringToNumber2 (arr) {
 
 console.log(stringToNumber2(['4.3', '9.6']))
 
-const stringtoNumber4 = (newArr = []) => newArr.push(x => Number(parseInt(x))
-console.log(stringtoNumber4(['4.3', '9.6']))
+// const stringtoNumber4 = (newArr = []) => newArr.push(x => Number(parseInt(x))
+// console.log(stringtoNumber4(['4.3', '9.6']))
 
 function arrayToString(arr) {
 let text = '' 
