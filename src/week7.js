@@ -63,7 +63,9 @@ console.log(oddOrEven2([81]))
 
 const oddOrEven3 = arr => arr.reduce((x, y) => x + y, 0) %2 !== 0 ? 'odd' : 'even'
 
-console.log(oddOrEven3([33]))
+
+
+console.log(oddOrEven3([34]))
 
 // function stringToNumber(arr) {
 // return arr.map(x => Number(x));
@@ -133,3 +135,8 @@ console.log(arrayToString2([1,2,4]))
 // const reversi = (x) => x.length < 2 ? str.reverse(str.slice(1, str.length)) + str[0];
 
 // console.log(reversi('hello'))
+
+const oddOrEven4 = arr => arr.reduce((x, y) => x + y, 0) %2 !== 0 ? arr.reduce((x,y) => x + y, 0)  : 'error'
+
+console.log(oddOrEven4([6+3]))
+
