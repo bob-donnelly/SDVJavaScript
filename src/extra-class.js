@@ -55,4 +55,46 @@ console.log(sumOfCubs([6]))
 
 // Check nested arrays, indexOf and for loops/skipping steps for minesweeper.
 
+let arr1 = []
 
+arr1.push([2,3,3,3]) 
+
+console.log(arr1)
+console.log(arr1.indexOf(3))
+
+let arr2 = []
+
+arr2.push([0,0,1,0],
+    [0,1,0,0],
+    [0,0,0,1],
+    [1,0,0,0])
+
+    console.log(arr2)
+console.log(arr2.indexOf(1 ));
+
+let obj = {
+    firstname : 'bob',
+    lastname : 'WD'
+
+}
+
+console.log(obj.firstname, obj.lastname)
+
+console.log(obj.firstname = 'Georges')
+
+obj.month = 'Dec'
+
+console.log(obj.month)
+
+delete obj.firstname 
+
+console.log(obj.firstname, obj.lastname, obj.month)
+
+const myObj = new Object();
+myObj.fn = 'Bob'; 
+myObj.ln = 'WD';
+myObj.mth = 'Dec';
+myObj.dl = 'Full';
+myObj.add = 'Private'
+
+console.log(myObj)
