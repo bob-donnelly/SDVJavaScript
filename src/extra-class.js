@@ -98,3 +98,83 @@ myObj.dl = 'Full';
 myObj.add = 'Private'
 
 console.log(myObj)
+
+
+
+console.log('fn' in myObj, 'add' in myObj, 'month' in myObj)
+
+// console.log(mth in myObj)
+
+
+const allProps = Object.keys(obj);
+// for (allProps) {
+//     const value = obj[firstname, lastname];
+//     console.log(allProps, value)
+// }
+
+console.log(allProps)
+
+const allEntries = Object.entries(obj);
+
+console.log(allEntries)
+
+// const obj1 = {
+// name: 'Alex',
+// object1:  {
+// address: 'Earth'
+// }
+// }
+
+// const obj2 = {
+//     ...obj1
+// }
+
+// console.log(obj2)
+
+//Nested arrays.
+
+// ([
+//     [1,2,3,4,5],
+//     [5,6,7,8,9],
+//     [20,21,34,56,100]
+// ])
+
+// const myArr = [0,1,2,3,4,5,6,7]
+
+function sumMin(arr) {
+let sum = 0;
+
+for(let i = 0; i < arr.length; i++) {
+    let y = arr[i][0]
+    for(let x = 0; x < arr[i].length; x++) {
+        if(y < arr[i][x]) {
+            y = arr[i][x]
+        }
+    }
+    sum += y 
+}
+return sum
+
+}
+
+// function sumMin(arr) {
+//     let sum = 0;
+    
+//     for(let i = 0; i < arr.length; i++) {
+//         let y = arr[i][0]
+//         for(let x = 0; x < arr[i].length; x++) {
+//             if(y < arr[i][x]) {
+//                 y = arr[i][x]
+//             }
+//         }
+//         sum += y 
+//     }
+//     return sum
+    
+//     }
+
+console.log(sumMin([
+    [1,2,3,4,5],
+    [5,6,7,8,9],
+    [20,21,34,56,100]
+]))
