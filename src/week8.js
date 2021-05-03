@@ -29,3 +29,31 @@ function secondFunc(number, length) {
 }
 
 console.log(secondFunc(15, 7))
+
+// let secFunc = (n, l) => 
+
+function sortFunc(arr, str) {
+    switch(str) {
+    case 'Ascending':
+    return arr.sort((a, b) => a - b)
+    break;
+    case 'Descending':
+    return arr.sort((a, b) => b - a)
+    break;
+    default: return []
+    }
+    
+}
+
+console.log(sortFunc())
+
+// const es6Sort = (arr, str) => []
+// str === 'Ascending' ? arr.sort((a, b) => a - b) :
+// str === 'Descending' ? arr.sort((a, b) => b - a) :
+// arr
+
+// console.log(es6Sort()) Didn't work
+
+const trueOrFalse = (...args) => args.every(Boolean)
+
+console.log(trueOrFalse(2, 2, 2, 2, 2, 0))
