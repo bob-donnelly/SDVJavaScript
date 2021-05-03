@@ -57,3 +57,39 @@ console.log(sortFunc())
 const trueOrFalse = (...args) => args.every(Boolean)
 
 console.log(trueOrFalse(2, 2, 2, 2, 2, 0))
+
+// function tOrf() {
+//     if(typeof 'number' || 'string') {
+//         return true
+//     }
+//     else if ('number' === 0 || NaN) {
+//         return false
+//     }
+// }
+
+
+// console.log(tOrf())
+
+function subArr(x, y, z) {
+    return Array(x).fill(Array(y).fill(z))
+    }
+
+    console.log(subArr(4,4,1))
+
+    // function subArrs(x,y,z) {
+    // let arr = [];
+    // arr.push()
+    // }
+
+    function checkArrays(arr1, arr2) {
+        for(let i = 0;i < arr1.length;i++) {
+            if (arr1[i] === arr2[i]) {
+                return true
+            } else {
+                return false
+            }
+        }
+    }
+     
+    console.log(checkArrays([1,3],[6,3,8,1]))
+    console.log(checkArrays([1], [1]))
