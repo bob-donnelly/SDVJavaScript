@@ -51,3 +51,28 @@ const getDepth = obj => {
 
 console.log(getDepth([]))
 
+// function createDepth(arr) {
+//     if(arr.length === 1) return arr
+//     retun {arr[0], createDepth(arr).slice(1)}
+// }
+
+function flatArray(arr) {
+    let result = [];
+    if(arr === undefined) {
+        return arr
+    }
+    arr.forEach(function (a) {
+        if(Array.isArray(a)) {
+            result = result.concat(flatArray(a))
+        } else {
+        if(typeof a === 'function') {
+            result.push(a())  
+        } else {
+            result.push(a)
+        }
+        }
+        return result
+    })
+}
+
+console.log(flatArray())
