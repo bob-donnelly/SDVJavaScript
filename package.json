@@ -1,0 +1,24 @@
+{
+  "name": "SDVJavaScript",
+  "version": "1.0.0",
+  "description": "This week we set up our work environment to prepare for the lessons we are going to be learning during this course. We also learnt how to print with console.log() Hello World! to get us started with Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bob-donnelly/SDVJavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bob-donnelly/SDVJavaScript/issues"
+  },
+  "homepage": "https://github.com/bob-donnelly/SDVJavaScript#readme",
+  "dependencies": {
+    "g": "^2.0.1",
+    "nodemon": "^2.0.7"
+  }
+}
