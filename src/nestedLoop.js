@@ -1,9 +1,9 @@
-let rows = [0, 1, 0, 1, 0, 1, 1, 0, 1, 0];
+let rating = [0][0];
 
-for(let i = 0; i < rows; i++) {
-    for(let j = 0; j < cols; j++) {
-        console.log(j)
+for(let row = 0; row < rating.length; row++) {
+    for(let col = 0; col < rating[0].length; col++) {
+        console.log(col)
     }
-    console.log(i)
+    console.log(row)
 }
 
